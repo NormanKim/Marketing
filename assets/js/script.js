@@ -54,3 +54,11 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
+
+
+let year = document.getElementById("year");
+year.textContent = new Date().getFullYear();
+
+
+
+
